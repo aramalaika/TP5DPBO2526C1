@@ -2,7 +2,7 @@
 Janji : Saya Aracelli Jasmine Malaika dengan NIM 2501804 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya, maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Deskripsi Program
-Program **PeopleData** merupakan aplikasi berbasis aJava Swing yang digunakan untuk mengelola data personal dengan menerapkan konsep pemrograman berorientasi objek dan koneksi database MySQL.
+Program **PeopleData** merupakan aplikasi berbasis Java Swing yang digunakan untuk mengelola data personal dengan menerapkan konsep pemrograman berorientasi objek dan koneksi database MySQL.
 
 Aplikasi ini terhubung dengan database `db_people` yang memiliki tabel `person`. Data yang dikelola meliputi ID, nama, tahun lahir, kategori, dan email.
 
@@ -133,7 +133,6 @@ File database yang digunakan untuk mengimpor struktur tabel dan data awal disert
 
 ## Penerapan OOP
 Program ini menerapkan konsep Object-Oriented Programming (OOP) melalui beberapa class berikut:
-
 - **`Person.java`**: Merepresentasikan objek personal yang memiliki atribut ID, nama, tahun lahir, kategori, dan email.
 - **`Database.java`**: Mengatur koneksi antara aplikasi Java dan database MySQL.
 - **`PeopleMenu.java`**: Mengatur tampilan antarmuka, menerima input pengguna, serta menjalankan proses CRUD terhadap database.
